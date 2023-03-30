@@ -181,7 +181,7 @@ mode "resize" {
         bindsym $mod+r mode "default"
 }
 
-default_border pixel 2
+default_border pixel 5
 
 gaps inner 5
 
