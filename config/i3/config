@@ -187,6 +187,15 @@ set $focused_border #7aa2f7
 
 set $unfocused_border #a9b1d6
 
+# class                 border  bground text    indicator child_border
+client.focused          #7aa2f7 #7aa2f7 #F8F8F2 #7aa2f7   #7aa2f7
+client.focused_inactive #a9b1d6 #a9b1d6 #F8F8F2 #a9b1d6   #a9b1d6
+client.unfocused        #a9b1d6 #a9b1d6 #BFBFBF #a9b1d6   #a9b1d6
+client.urgent           #a9b1d6 #FF5555 #F8F8F2 #FF5555   #FF5555
+client.placeholder      #a9b1d6 #a9b1d6 #F8F8F2 #a9b1d6   #a9b1d6
+client.background       #1a1b26
+
+
 gaps inner 5
 
 bindsym $mod+r mode "resize"
