@@ -17,7 +17,7 @@ install_dots() {
     cp -rf $DIR/themes/* "$HOME/.themes/"
     mkdir $HOME/.vscode/
     cp -rf $DIR/vscode/* "$HOME/.vscode/"
-    cp -rf $HOME/Wallpapers/ $HOME/
+    cp -rf $DIR/Wallpapers $HOME/
 }
 
 install_fonts
