@@ -202,3 +202,6 @@ bindsym $mod+r mode "resize"
 
 exec --no-startup-id ~/.config/polybar/blocks/launch.sh
 
+exec --no-startup-id xrandr --output eDP-1 --mode 1920x1080 --rate 60
+
+exec --no-startup-id feh --bg-fill ~/Wallpapers/bg2.jpg
