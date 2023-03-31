@@ -181,7 +181,11 @@ mode "resize" {
         bindsym $mod+r mode "default"
 }
 
-default_border pixel 5
+default_border pixel 3
+
+set $focused_border #7aa2f7
+
+set $unfocused_border #a9b1d6
 
 gaps inner 5
 
