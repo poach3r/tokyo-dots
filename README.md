@@ -11,3 +11,5 @@ font: terminus
 note: install script probably doesnt work, use it at your own risk
 
 ![rice](/tokyo-night-rice.png)
+
+![wallpaper](/Wallpapers/bg2.jpg)
